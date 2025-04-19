@@ -14,7 +14,6 @@ This project demonstrates how to create a WhatsApp auto-reply bot using Python. 
 5.  [Usage](#usage)
 6.  [Code Structure](#code-structure)
 7.  [Contributing](#contributing)
-8.  [License](#license)
 
 ## 1.  Project Description
 
@@ -66,21 +65,6 @@ This project creates a Python-based WhatsApp auto-reply bot. The bot automates t
     * Run the `getCoordinates.py` script to get the coordinates of your Brave browser icon on the desktop.
 
         * Create a file named `getCoordinates.py`
-
-        * Add the following code
-
-            ```python
-            import pyautogui
-            import time
-
-            try:
-                while True:
-                    x, y = pyautogui.position()
-                    print(f"Current coordinates: x={x}, y={y}", end='\r')
-                    time.sleep(0.1)  # Optional: Reduce CPU usage
-            except KeyboardInterrupt:
-                print("\nProgram stopped.  Copy the last coordinates.")
-            ```
 
         * Run the script and move your mouse over the Brave browser icon.
 

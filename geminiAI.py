@@ -1,7 +1,7 @@
 from google import genai
 from google.genai import types
 
-client = genai.Client(api_key="AIzaSyBsVoaSwnsPX28UovnyFZZkyD4U5Q4lQI0")
+client = genai.Client(api_key="YOUR_API_KEY")
 # Provide your background information for better chat responses
 your_background = "'You are a person named Mohammed, you can speak English as well as urdu. " \
 "You are from Pakistan, you are a coder and a computer science students styding in A levels college." \
